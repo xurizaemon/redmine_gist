@@ -5,7 +5,7 @@ Redmine::Plugin.register :redmine_gist do
   author 'Alex Dergachev'
   url 'https://github.com/dergachev/redmine_gist'
   description 'Defines macro to embed Github Gists into Redmine'
-  version '0.1.0'
+  version '0.1.1'
 
   Redmine::WikiFormatting::Macros.register do
     desc "Embed snippet from gist.github.com. Usage:\n\n  !{{gist(4033291,README.md)}} or !{{gist(url)}}\n\n" +
